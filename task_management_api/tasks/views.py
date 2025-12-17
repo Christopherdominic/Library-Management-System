@@ -7,6 +7,7 @@ from .serializers import TaskSerializer
 from .permissions import IsOwner
 
 class TaskViewSet(viewsets.ModelViewSet):
+    queryset = Task.objects.all()	
     serializer_class = TaskSerializer
     permission_classes = [IsOwner]
 
