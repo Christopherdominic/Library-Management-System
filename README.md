@@ -54,7 +54,7 @@ This project simulates real-world backend development practices, including authe
 * **API Framework:** Django REST Framework (DRF)
 * **Authentication:** JWT (Simple JWT)
 * **Database:** SQLite (development) / PostgreSQL (production)
-* **Deployment:** PythonAnywhere or Heroku
+* **Deployment:** Render
 
 ---
 
@@ -179,7 +179,7 @@ python manage.py runserver
 ## 🌍 Deployment
 
 For production:
-
+ [Deployment_url](https://library-management-system-lans.onrender.com/api/)
 * Set `DEBUG = False`
 * Configure `ALLOWED_HOSTS`
 * Use PostgreSQL database
